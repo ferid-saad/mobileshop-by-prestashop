@@ -1,0 +1,47 @@
+# --- Secrets & env ---
+/app/config/parameters.php
+/config/parameters.php
+/.env
+/.env.local
+/.env.*.local
+
+# --- Caches & logs (PS 1.7/8) ---
+/var/cache/
+/var/logs/
+
+# --- Caches & logs (PS 1.6/legacy) ---
+/app/cache/
+/app/logs/
+
+# --- Vendors & deps ---
+/vendor/
+/modules/*/vendor/
+/modules/*/node_modules/
+/themes/*/node_modules/
+/themes/*/dist/
+/themes/*/.sass-cache/
+/themes/*/.cache/
+
+# --- Assets caches ---
+/themes/*/assets/cache/
+
+# --- Autoupgrade backups ---
+/admin*/autoupgrade/backup/
+/admin*/autoupgrade/download/
+
+# --- Fichiers volumineux & media (optionnel) ---
+/download/
+/upload/
+/img/*
+!/img/index.php
+!/img/.htaccess
+
+# --- Outils & OS ---
+composer.lock
+package-lock.json
+yarn.lock
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
